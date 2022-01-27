@@ -10,4 +10,9 @@
     <Compile Include="..\xunit.v3.assert\Asserts\**\*.cs" LinkBase="Asserts" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
+
 </Project>
